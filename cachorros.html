@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Paola Silva"
-    <meta name="description" content="Raças de cachorros e suas aptidões."
+    <meta name="author" content="Paola Silva">
+    <meta name="description" content="Raças de cachorros e suas aptidões.">
+    <link rel="stylesheet" href="estilo.css">
     <title>Cães</title>
+    <script language="javascript">
+        function responderGostou(resposta) {
+            if (resposta == "sim") {
+                alert("Os cachorrinhos ficaram muito felizes com essa noticia :))!");
+            } else if (resposta == "nao") {
+                alert("Os cachorrinhos ficaram tristes com essa noticia :((");
+            }
+        }
+    </script>
 </head>
 <body>
-    <h3> Sobre cães </h3>
+    <h4>Sobre cães</h4>
     <p>Os cães, cientificamente conhecidos como Canis familiaris, são mamíferos quadrúpedes que pertencem à ordem dos carnívoros e à família Canidae. 
         <br>Esta família inclui não apenas os cães domésticos, mas também lobos, chacais, raposas, cachorro-do-mato, lobo-guará e outras espécies. 
         <br>No total, a família Canidae é composta por 38 espécies, das quais seis são selvagens e encontradas no Brasil. 
@@ -17,39 +27,45 @@
         O convívio entre esses animais e seres humanos data de mais de 10.000 anos. Os cães têm sidos utilizados em funções <br>
         como guarda, pastoreio, guia para pessoas com visão reduzida, assistência de pessoas com outras dificuldades físicas ou psicológicas e também para companhia.</p>
 
-        <dl>
-            <dt><strong>Cães de Guarda</strong></dt>
-            <dd><em>Rottweiler</em></dd>
-            <p>Na cidade de Rottweil, na Alemanha, esses cães eram conhecidos por seu papel como cães de pastoreio e guarda, 
-                <br>e o nome "Rottweiler" deriva dessa cidade. A raça desempenhou um papel crucial na proteção dos rebanhos e no transporte de mercadorias.</p>
-            <dd><em>Doberman</em></dd>
-            <p>O Doberman foi desenvolvido no final do século 19 por um coletor de impostos alemão chamado Louis Dobermann, 
-                <br>que buscava criar um cão de proteção que fosse ágil, inteligente e corajoso. Dobermann queria um cão que pudesse acompanhá-lo em suas rondas e proteger sua segurança.</p>
-            <dd><em>Cane corso</em></dd>
-            <p>O Cane Corso é uma raça de cães de grande porte originária da Itália, conhecida por sua força, lealdade e habilidades de proteção. 
-                <br>Sua história é fascinante e está intimamente ligada às tradições e necessidades da antiga Roma.</p>
+    <dl>
+        <dt><strong>Cães de Guarda</strong></dt>
+        <dd><em>Rottweiler</em></dd>
+        <p>Na cidade de Rottweil, na Alemanha, esses cães eram conhecidos por seu papel como cães de pastoreio e guarda, 
+            <br>e o nome "Rottweiler" deriva dessa cidade. A raça desempenhou um papel crucial na proteção dos rebanhos e no transporte de mercadorias.</p>
+        <dd><em>Doberman</em></dd>
+        <p>O Doberman foi desenvolvido no final do século 19 por um coletor de impostos alemão chamado Louis Dobermann, 
+            <br>que buscava criar um cão de proteção que fosse ágil, inteligente e corajoso. Dobermann queria um cão que pudesse acompanhá-lo em suas rondas e proteger sua segurança.</p>
+        <dd><em>Cane corso</em></dd>
+        <p>O Cane Corso é uma raça de cães de grande porte originária da Itália, conhecida por sua força, lealdade e habilidades de proteção. 
+            <br>Sua história é fascinante e está intimamente ligada às tradições e necessidades da antiga Roma.</p>
 
-            <dt><strong>Cães de pastoreio</strong></dt>
-            <dd><em>Border Collie</em></dd>
-            <p>O Border Collie tem suas origens na região de fronteira entre a Escócia e a Inglaterra, <br>
-                onde foi desenvolvido para ser um cão de pastoreio eficiente. A raça descende de cães pastores utilizados para o manejo de rebanhos de ovelhas.</p>
-            <dd><em>Blue Heeler</em></dd>
-            <p>O Blue Heeler, também conhecido como Australian Cattle Dog, foi desenvolvido na Austrália no século 19 para lidar com o manejo de rebanhos de gado <br>
-                em terrenos difíceis. A raça é uma combinação de vários cães, incluindo o Dingo australiano e o Collie, além de outras raças de pastoreio.</p>
-            <dd><em>Kelpie</em></dd>
-            <p>A raça é resultado do cruzamento entre cães de pastoreio trazidos da Grã-Bretanha e cães nativos australianos, incluindo o Dingo.<br>
-                O objetivo era criar um cão altamente eficiente em pastoreio, com grande resistência e agilidade.</p>
+        <dt><strong>Cães de pastoreio</strong></dt>
+        <dd><em>Border Collie</em></dd>
+        <p>O Border Collie tem suas origens na região de fronteira entre a Escócia e a Inglaterra, <br>
+            onde foi desenvolvido para ser um cão de pastoreio eficiente. A raça descende de cães pastores utilizados para o manejo de rebanhos de ovelhas.</p>
+        <dd><em>Blue Heeler</em></dd>
+        <p>O Blue Heeler, também conhecido como Australian Cattle Dog, foi desenvolvido na Austrália no século 19 para lidar com o manejo de rebanhos de gado <br>
+            em terrenos difíceis. A raça é uma combinação de vários cães, incluindo o Dingo australiano e o Collie, além de outras raças de pastoreio.</p>
+        <dd><em>Kelpie</em></dd>
+        <p>A raça é resultado do cruzamento entre cães de pastoreio trazidos da Grã-Bretanha e cães nativos australianos, incluindo o Dingo.<br>
+            O objetivo era criar um cão altamente eficiente em pastoreio, com grande resistência e agilidade.</p>
 
-            <dt><strong>Cães de Companhia</strong></dt>
-            <dd><em>Poddle</em></dd>
-            <p>O Poodle é uma raça que se originou na Alemanha e foi posteriormente refinada na França. Seu nome vem da palavra alemã Pudel, que significa "saltar na água",<br>
-                refletindo a habilidade da raça como cão de caça aquático.</p>
-            <dd><em>Cavalier King Charles Spaniel</em></dd>
-            <p>O Cavalier King Charles Spaniel foi refinado durante o reinado de Charles II, que era um grande admirador da raça. <br>
-                A raça foi nomeada em homenagem ao rei Charles II da Inglaterra, que era frequentemente visto com seus cães de companhia.</p>
-            <dd><em>Shih-tzu</em></dd>
-            <p>O Shih Tzu é uma raça de cães de companhia que tem suas origens na China, onde era altamente valorizado pelas dinastias imperiais.
-                <br>Seu nome significa "leão pequeno" em chinês, refletindo sua aparência que lembra os leões da arte chinesa.</p>
-            </dl>
+        <dt><strong>Cães de Companhia</strong></dt>
+        <dd><em>Poodle</em></dd>
+        <p>O Poodle é uma raça que se originou na Alemanha e foi posteriormente refinada na França. Seu nome vem da palavra alemã Pudel, que significa "saltar na água",<br>
+            refletindo a habilidade da raça como cão de caça aquático.</p>
+        <dd><em>Cavalier King Charles Spaniel</em></dd>
+        <p>O Cavalier King Charles Spaniel foi refinado durante o reinado de Charles II, que era um grande admirador da raça. <br>
+            A raça foi nomeada em homenagem ao rei Charles II da Inglaterra, que era frequentemente visto com seus cães de companhia.</p>
+        <dd><em>Shih-tzu</em></dd>
+        <p>O Shih Tzu é uma raça de cães de companhia que tem suas origens na China, onde era altamente valorizado pelas dinastias imperiais.
+            <br>Seu nome significa "leão pequeno" em chinês, refletindo sua aparência que lembra os leões da arte chinesa.</p>
+    </dl>
+    <input type="button" value="Mensagem" onclick="alert('Cada cão adotado é uma vida transformada. Ao adotar, você não apenas ganha um amigo fiel, mas também ajuda a salvar uma vida. Considere a adoção hoje!');">
+    
+    <p>Você gostou dessas informações?</p>
+    <button onclick="responderGostou('sim')">Sim</button>
+    <button onclick="responderGostou('nao')">Não</button>
+
 </body>
 </html>
